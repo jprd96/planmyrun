@@ -52,6 +52,10 @@ footer {
 	margin: auto;
 	clear: both;
   text-align: right;
+  /* position: fixed; */
+  /* bottom: 0;   */
+  display: flex;
+
 }
 
 #smallerfont {
