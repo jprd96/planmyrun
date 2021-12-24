@@ -9,6 +9,7 @@ html {
 }
 #pageContent {
     max-width: 1000px;
+    /* width: 50% */
     margin: auto;
     border: none;
 }
@@ -38,6 +39,7 @@ body {
   /* background-color: #f5f5f5; */
   color: #000000;
   margin: 0 0 100px;
+  margin-bottom:50px;
   border-width: 15px;
   /* text-decoration: none; */
   text-align: left;
@@ -52,10 +54,11 @@ footer {
 	margin: auto;
 	clear: both;
   text-align: right;
-  /* position: fixed; */
-  /* bottom: 0;   */
-  display: flex;
-
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 10px;
 }
 
 #smallerfont {
@@ -67,9 +70,12 @@ footer {
 }
 
 hr {
-    border: none;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%
+    background-color:#FFFF00;
     height: 1px;
-    background-color: #333; /* Modern Browsers */
 }
 
 #tableContent {
