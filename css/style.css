@@ -49,12 +49,11 @@ body {
   position: relative;
 }
 
-footer {
+#footer {
   max-width: 1000px;
-	margin: auto;
-	clear: both;
-  text-align: right;
   position: fixed;
+  text-align: right;
+  margin: auto;
   bottom: 0px;
   left: 0px;
   right: 0px;
