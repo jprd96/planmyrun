@@ -13,7 +13,7 @@ html {
     margin: auto;
     border: none;
 }
-/* Navbar */
+
 nav {
     display: inline-block;
     float: left;
@@ -34,9 +34,7 @@ nav ul {
     list-style: none;
 }
 
-
-
-
+/* Navbar */
 
 .navbar {
 	border-radius: 0;
@@ -47,6 +45,7 @@ nav ul {
 
 .nav li {
 	display: inline;
+  text-align: right;
 	/* color: white; */
 }
 
@@ -65,7 +64,6 @@ nav ul {
 	/* height: 100%; */
 }
 
-
 .icon-bar {
   width: 90px; /* Set a specific width */
   background-color: #000; /* Dark-grey background */
@@ -83,10 +81,6 @@ nav ul {
 .icon-bar a:hover {
   /* background-color: #000; /* Add a hover color */ */
 }
-
-
-
-
 
 /* General body padding */
 body {
