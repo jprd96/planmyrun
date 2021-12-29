@@ -34,6 +34,60 @@ nav ul {
     list-style: none;
 }
 
+
+
+
+
+.navbar {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	/* min-height: 80px; */
+}
+
+.nav li {
+	display: inline;
+	/* color: white; */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	/* color: #ffffff; */
+  text-align: right;
+	/* font-family: Lato; */
+	/* font-size: 1.7em; */
+	/* font-weight: 300; */
+	/* padding: 30px 25px 33px 25px; */
+}
+
+.navbar-nav li a:hover {
+	background-color: transparent;
+	transition: 0.3s all linear;
+	/* height: 100%; */
+}
+
+
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #000; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: right; /* Center-align text */
+  /* padding: 16px; /* Add some padding */ */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  /* font-size: 36px; /* Increased font-size */ */
+}
+
+.icon-bar a:hover {
+  /* background-color: #000; /* Add a hover color */ */
+}
+
+
+
+
+
 /* General body padding */
 body {
   /* background-color: #f5f5f5; */

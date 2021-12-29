@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap and styles -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,15 +26,32 @@
         <h2><a href="index" class="home">PlanMyRun</a></h2>
       </div>
       <div style="width: 80%; float: right">
-        <nav style="float: right">
-          <ul>
-            <li><a href="index">Pace Calculator</a>
-            <li><a href="weather">Weather Forecast</a>
-            <li><a href="about">About</a>
-          </ul>
+        <nav style="float: right" class="navbar" role="navigation">
+          <div>
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+            <div class="collapse navbar-collapse" id="my-navbar">
+                <ul>
+                  <li><a href="index">Pace Calculator</a></li>
+                  <li><a href="weather">Weather Forecast</a></li>
+                  <li><a href="about">About</a></li>
+                </ul>
+            </div>
+          </div>
         </nav>
-      </div>
-      <br><br><hr>
+        <!-- <nav style="float: right">
+          <ul>
+            <li><a href="index.html">Pace Calculator</a></li>
+            <li><a href="weather.html">Weather Forecast</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav> -->
+      </div>      <br><br><hr>
       <div class="row">
         <div class="col-md-6">
           <h4>About</h4><br>

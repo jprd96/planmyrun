@@ -3,9 +3,11 @@ class Forecast {
         // this.apiKey = 'FPk1gn6mGZmTRmnWU5lcleGi7STN7JR0' // core weather free
         this.apiKey = 'ZSsIVu36JY9J2H4lu3oouyNDcxOpipNQ' // core weather standard
         // this.apiKeyWeather = 'L8YuGgBA8aidhP3EbKNeG3bAbNyCgSZs' // minutecast
+        // this.windyAPI = 'o3ld3C4KYsUV5rodHOhWNVhzWqHK5lZr'
         this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search'
         this.currentURI = 'https://dataservice.accuweather.com/currentconditions/v1/'
         this.twelveURI = 'https://dataservice.accuweather.com/forecasts/v1/hourly/12hour/'
+        // this.windyURI = 'https://api.windy.com/api/point-forecast/v2'
         // this.minuteCastURI = 'https://dataservice.accuweather.com/forecasts/v1/minute'
     }
     async updateCity(city) {
@@ -23,13 +25,13 @@ class Forecast {
       return data[0]
     }
     async getCurrent(key) {
-      const query = `${key}?apikey=${this.apiKey}`
+      const query = `${key}?details=true&apikey=${this.apiKey}`
       const response = await fetch(this.currentURI+query)
       const data = await response.json()
       return data[0]
     }
     async getTwelve(key) {
-      const query = `${key}?apikey=${this.apiKey}`
+      const query = `${key}?details=true&apikey=${this.apiKey}`
       const response = await fetch(this.twelveURI+query)
       const data = await response.json()
       return data
