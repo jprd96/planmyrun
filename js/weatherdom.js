@@ -75,7 +75,7 @@ const updateUI = (data) => {
         updateDetails.innerHTML = html1 + html2 + html3
 
         function formatTime(date) {
-          var minutes = date.getMinutes();
+          var minutes = ("0" + date.getMinutes()).slice(-2);
           var hours = date.getHours();
           var suffix = (hours >= 12) ? 'PM' : 'AM';
           hours = (hours > 12) ? hours - 12 : hours; // only -12 from hours if it is greater than 12 (if not, back at mid night)
