@@ -1,7 +1,7 @@
 class Forecast {
     constructor() {
         this.apiKey = 'FPk1gn6mGZmTRmnWU5lcleGi7STN7JR0' // core weather free
-        // this.apiKey = 'ZSsIVu36JY9J2H4lu3oouyNDcxOpipNQ' // core weather standard
+        // this.apiKey = 'ZSsIVu36JY9J2H4lu3oouyNDcxOpipNQ' // core weather paid
         // this.apiKeyWeather = 'L8YuGgBA8aidhP3EbKNeG3bAbNyCgSZs' // minutecast
         // this.windyAPI = 'o3ld3C4KYsUV5rodHOhWNVhzWqHK5lZr'
         this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search'
