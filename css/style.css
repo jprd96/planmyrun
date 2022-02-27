@@ -63,6 +63,11 @@ nav ul {
 	/* height: 100%; */
 }
 
+/* Reduce line height for nav bar menu items */
+ul.nav.navbar-nav {
+  line-height: 0.5px;
+}
+
 .icon-bar {
   width: 90px; /* Set a specific width */
   background-color: #000; /* Dark-grey background */
